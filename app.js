@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 
 const express = require ("express");
 const app = express();
@@ -9,18 +10,54 @@ app.get("/", (req, res) => {
 });
 
 
-app.get("/productos", (req, res) => {
-    res.sendFile(__dirname + "/views/productos.html")
+app.get("/esmacho", (req, res) => {
+    res.sendFile(__dirname + "/views/si.html")
 });
 
 
-app.get("/acerca-de", (req, res) => {
-    res.sendFile(__dirname + "/views/acerca-de.html")
+app.get("/esparientedecelestecid", (req, res) => {
+    res.sendFile(__dirname + "/views/no.html")
 });
 
 
-app.get("/contacto", (req, res) => {
-    res.sendFile(__dirname + "/views/contacto.html")
+app.get("/germanesblasfemo", (req, res) => {
+    res.sendFile(__dirname + "/views/si.html")
+});
+
+app.get("/elpabloesvruto", (req, res) => {
+    res.sendFile(__dirname + "/views/si.html")
+});
+
+app.get("/losdinosauriosexisten", (req, res) => {
+    res.sendFile(__dirname + "/views/talvez.html")
+});
+
+app.get("/elpotrilloesmacho", (req, res) => {
+    res.sendFile(__dirname + "/views/si.html")
+});
+
+app.get("/sosbabart", (req, res) => {
+    res.sendFile(__dirname + "/views/si.html")
+});
+
+app.get("/tenesolor", (req, res) => {
+    res.sendFile(__dirname + "/views/si.html")
+});
+
+app.get("/elpablotieneolor", (req, res) => {
+    res.sendFile(__dirname + "/views/no.html")
+});
+
+app.get("/tegustaelipi", (req, res) => {
+    res.sendFile(__dirname + "/views/talvez.html")
+});
+
+app.get("/deberiamosvisitarla", (req, res) => {
+    res.sendFile(__dirname + "/views/si.html")
+});
+
+app.get("/escorrectoloquehago", (req, res) => {
+    res.sendFile(__dirname + "/views/talvez.html")
 });
 
 app.get("*", (req, res) => {
@@ -30,4 +67,4 @@ app.get("*", (req, res) => {
  console.log(__dirname);
 
 
-app.listen(3001, () => { console.log("servidor andando")});
+app.listen(4000, () => { console.log(chalk.redBright("ENSERIO QUERES SABER SOBRE EL POTRILLO???, pone en el navegador esto: localhost:4000. Cuando quieras preguntar mas cosas agregale despues de la direccion / mas tu pregunta sin espacios"))});
