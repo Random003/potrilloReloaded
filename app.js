@@ -67,4 +67,4 @@ app.get("*", (req, res) => {
  console.log(__dirname);
 
 
-app.listen(4000, () => { console.log(chalk.redBright("ENSERIO QUERES SABER SOBRE EL POTRILLO???, pone en el navegador esto: localhost:4000. Cuando quieras preguntar mas cosas agregale despues de la direccion / mas tu pregunta sin espacios"))});
+app.listen(4000, () => {console.log(chalk.redBright("VOS QUERES SABER DEL POTRILLO? escribi localhost:4000 y pregunta!"))});
