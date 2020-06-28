@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 
-app.get("/esmacho", (req, res) => {
+app.get("/elpotrilloesmacho", (req, res) => {
     res.sendFile(__dirname + "/views/si.html")
 });
 
