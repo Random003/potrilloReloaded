@@ -32,7 +32,7 @@ app.get("/losdinosauriosexisten", (req, res) => {
     res.sendFile(__dirname + "/views/talvez.html")
 });
 
-app.get("/elpotrilloesmacho", (req, res) => {
+app.get("/esmacho", (req, res) => {
     res.sendFile(__dirname + "/views/si.html")
 });
 
